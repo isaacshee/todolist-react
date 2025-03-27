@@ -206,6 +206,7 @@ const CRUD = () => {
             </Form>
 
             <Container>
+                 <label>Enter fields and click submit to insert an item to the list:</label>
                 <Row>
                     {/*ISAAC - render form controls for inserting new todo list items & tie them to the appropriate event handlers*/}
                     <Col>
