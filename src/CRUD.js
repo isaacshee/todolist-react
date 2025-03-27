@@ -64,9 +64,10 @@ const CRUD = () => {
     const [data, setData] = useState([]);
 
     useEffect(()=>{
+        //ISAAC - used to populate table with dummy data
         //setData(todoItemData);
 
-        //ISAAC - used to populate table with dummy data
+        //ISAAC - populating table with records from database via GET API call
         getData();
     }, [])
 
@@ -181,10 +182,6 @@ const CRUD = () => {
             - react-bootstrap table: https://react-bootstrap.netlify.app/docs/components/table/
             - react-bootstrap modals: https://react-bootstrap.netlify.app/docs/components/modal/
             - react-bootstrap layout grid: https://react-bootstrap.netlify.app/docs/layout/grid/
-                            <InputGroup className='my-3'>
-                    <Form.Control onChange={(e) => setSearch(e.target.value)}
-                        placeholder='Filter search' disabled={true}></Form.Control>
-                </InputGroup>
     */
     return(
         <Fragment>
