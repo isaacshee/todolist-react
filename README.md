@@ -10,5 +10,6 @@ By running this project, it provides a front end GUI user experience to interact
    Run the app on your browser using localhost:3000
 
 4) In order for this frontend to interact with the database via API calls, ensure that you have followed the steps in setting up the backend first.
+5) Refer to this repo to initialise the backend: https://github.com/isaacshee/TodoListRESTAPI.git
 
 
